@@ -92,7 +92,7 @@ const setWarning = () => {
 };
 
 const playMeowSound = () => {
-    const meowSound = new Audio('../assets/sounds/meow.mp3');
+    const meowSound = new Audio('./assets/sounds/meow.mp3');
 
     meowSound.currentTime = 0;
     meowSound.volume = 0.1;
@@ -100,7 +100,7 @@ const playMeowSound = () => {
 };
 
 const playAngrySound = () => {
-    const angrySound = new Audio('../assets/sounds/angry.mp3');
+    const angrySound = new Audio('./assets/sounds/angry.mp3');
 
     angrySound.currentTime = 0;
     angrySound.volume = 0.2;
@@ -108,7 +108,7 @@ const playAngrySound = () => {
 };
 
 const playScratchSound = () => {
-    const scratchSound = new Audio('../assets/sounds/scratch.mp3');
+    const scratchSound = new Audio('./assets/sounds/scratch.mp3');
 
     scratchSound.currentTime = 0;
     scratchSound.volume = 0.4;
